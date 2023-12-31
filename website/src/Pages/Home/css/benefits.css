@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+#skills{
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.skillDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+
+}
+
+.skillBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
+    align-items: center;
+}
+
+.skillBarImg{
+    object-fit: cover;
+    height: 5.5rem;
+    width: 5.5rem;
+    margin-right: 2rem;
+
+}
+
+.skillBarText>p{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+@media screen and  (max-width:480px){
+    .skillBarText>p{
+        font-size: 3vw;
+    }
+    .skillBarImg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillBarText>h2{
+        font-size: 5vw;
+    }
+}
