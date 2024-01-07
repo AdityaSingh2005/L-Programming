@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__image-container">
-        <img src="bg.jpg" alt="Header Image" className="header__image" />
+        <img src="bg.avif" alt="Header Image" className="header__image" />
       </div>
       <div className="header__content">
         <h1 style={{ color: 'rgb(255, 166, 0)' }}>" Code Your Way to Success "</h1>

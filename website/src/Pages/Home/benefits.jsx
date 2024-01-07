@@ -12,7 +12,7 @@ const Benefits = () => {
         <div className="skillBar">
             <img src='project.png' alt="UI/UX Design" className="skillBarImg"/>
             <div className="skillBarText">
-                <h2>Industry-Relevant Projects</h2>
+                <h2>Industry-Level Projects</h2>
                 <p> Immerse yourself in hands-on learning with our industry-relevant projects, where theory meets real-world application, ensuring you gain practical skills for success in the tech industry.</p>
             </div>
         </div>

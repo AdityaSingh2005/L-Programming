@@ -4,6 +4,7 @@
     position: relative;
     text-align: center;
     color: white;
+    background-color: white;
   }
   
   .header__image-container {
@@ -12,9 +13,9 @@
   
   .header__image {
     width: 100%;
-    height: 680px; /* Adjust the height as needed */
+    height: 380px; /* Adjust the height as needed */
     object-fit: cover; /* Maintain aspect ratio and cover container */
-    filter: brightness(0.5);
+    filter: brightness(0.9);
   }
   
   .header__content {
